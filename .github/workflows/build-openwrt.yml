@@ -15,7 +15,7 @@ on:
     branches:
       - master
     paths:
-      - 'r619ac.config'
+      - '20200305_apps.config'
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
@@ -24,7 +24,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: r619ac.config
+  CONFIG_FILE: 20200305_apps.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
